@@ -201,9 +201,6 @@ body {
 .about__photo {
   margin-bottom: 20px;
 }
-.about__text {
-  text-align: center;
-}
 .about__profile {
   border-bottom: 1px solid #000000;
   padding-bottom: 24px;
@@ -261,6 +258,7 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   text-align: center;
+  margin-bottom: 133px;
 }
 .other-works__text {
   padding: 56px 0;
@@ -268,42 +266,16 @@ body {
 .other-works__title {
   margin-bottom: 16px;
 }
-
-.projects img {
+.other-works__projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 24px;
+}
+.other-works__projects img {
   margin-bottom: 16px;
-}
-.projects-list1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-bottom: 48px;
-}
-.projects-list1 li:not(:last-child) {
-  margin-right: 24px;
-}
-.projects-list2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-bottom: 48px;
-}
-.projects-list2 li:not(:last-child) {
-  margin-right: 24px;
-}
-.projects-list3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-bottom: 144px;
-}
-.projects-list3 li:not(:last-child) {
-  margin-right: 24px;
 }
 
 .contact {

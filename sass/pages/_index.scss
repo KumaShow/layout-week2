@@ -53,10 +53,6 @@
         margin-bottom: 20px;
     }
 
-    &__text {
-        // text-align: center;
-    }
-
     &__profile {
         border-bottom: 1px solid $color-black;
         padding-bottom: 24px;
@@ -123,6 +119,7 @@
         margin: 0 auto;
         max-width: 1200px;
         text-align: center;
+        margin-bottom: 133px;
     }
 
     &__text {
@@ -133,48 +130,14 @@
         margin-bottom: 16px;
     }
 
-}
-
-.projects {
-
-    img {
-        margin-bottom: 16px;
-    }
-
-    &-list1 {
+    &__projects {
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 48px;
+        gap: 24px;
 
-        li {
-            &:not(:last-child) {
-                margin-right: 24px;
+        img {
+                margin-bottom: 16px;
             }
-        }
-    }
-
-    &-list2 {
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 48px;
-
-        li {
-            &:not(:last-child) {
-            margin-right: 24px;
-            }
-        }
-    }
-
-    &-list3 {
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 144px;
-
-        li {
-            &:not(:last-child) {
-            margin-right: 24px;
-            }
-        }
     }
 }
 
