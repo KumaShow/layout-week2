@@ -193,6 +193,7 @@ body {
 .about__content {
   margin: 0 auto;
   max-width: 412px;
+  text-align: center;
 }
 .about__title {
   margin-bottom: 40px;
