@@ -1,0 +1,47 @@
+.heading-1 {
+    @include black-i;
+    font-size: 80px;
+    line-height: 106px;
+}
+
+.heading-2 {
+    @include medium-i;
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.paragraph-md-24-42 {
+    @include medium-i;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.paragraph-md-24-36 {
+    @include medium-i;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.paragraph-md-20-42 {
+    @include medium-i;
+    font-size: 20px;
+    line-height: 42px;
+}
+
+.paragraph-md-20-30 {
+    @include medium-i;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.paragraph-bd-24-42 {
+    @include bold-i;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.paragraph-bd-24-36 {
+    @include bold-i;
+    font-size: 24px;
+    line-height: 36px;
+}

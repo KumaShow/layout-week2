@@ -1,0 +1,14 @@
+@mixin medium-i {
+    font-weight: 500;
+    font-style: italic;
+}
+
+@mixin bold-i {
+    font-weight: 700;
+    font-style: italic;
+}
+
+@mixin black-i {
+    font-weight: 900;
+    font-style: italic;
+}
