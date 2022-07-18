@@ -71,6 +71,7 @@
                 margin-bottom: 28px;
             }
 
+            // 使用 before 偽元素製作圓點
             &::before {
                 content: "";
                 position: absolute;
